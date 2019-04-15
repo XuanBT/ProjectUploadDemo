@@ -26,5 +26,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult Address()
+        {
+            ViewBag.Message = "Your address page.";
+
+            return View();
+        }
     }
 }
